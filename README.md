@@ -1,6 +1,6 @@
 <!--This Bot is Made By Xmarty_Support-->
 <p align="center">
-  <img src="https://telegra.ph/file/8848147cd4fb6af2f094f.jpg" alt="Logo">
+  <img src="https://telegra.ph/file/3a59d01b55d4adb0ec70e.jpg" alt="Logo">
 </p>
 
 ### 🚀 ʀᴀɴᴅᴏᴍ sᴘᴀᴍᴍᴇʀʙᴏᴛs
