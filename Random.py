@@ -5066,7 +5066,7 @@ Wᴀɪᴛ ғᴏʀ ᴀ ᴡʜɪʟᴇ ᴛᴏ ᴜsᴇ ɪᴛ ᴀɢᴀɪɴ.
 randomtext = """
   🆁🅰🅽🅳🅾🅼
 """
-print(Randomtext)
+print(randomtext)
 print("")
 print("")
 print("Rooted successfully...")
