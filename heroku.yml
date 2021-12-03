@@ -1,0 +1,5 @@
+build:
+  docker:
+    Random: Dockerfile
+run:
+  Glad: python3 -m Random.py

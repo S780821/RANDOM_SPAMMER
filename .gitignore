@@ -1,0 +1,7 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+Random.session
+Random.session-journal
+
+# Environments
+.env
