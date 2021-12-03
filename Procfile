@@ -1,1 +1,1 @@
-Glad: python -m Random.py
+Random: python -m Random.py
