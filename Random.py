@@ -2955,7 +2955,7 @@ async def curse(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in crew:
-                text = f"I can't betray @TeamGladiators's crew."
+                text = f"I can't betray @TeamXmarty crew."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -2975,7 +2975,7 @@ async def curse(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in crew:
-                text = f"I can't betray @TeamGladiators's crew."
+                text = f"I can't betray @TeamXmarty crew."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -3085,7 +3085,7 @@ async def curse(e):
             boom = 0
             booms = []
             counter = int(Randombot[0])
-            gladmention = f""
+            Ramdommention = f""
             for ulers in Randombot[1:]:
                 try:
                     fuckit = await e.client.get_entity(ulers)
@@ -3098,24 +3098,24 @@ async def curse(e):
                         sumdos.append(ummser)
                     else:
                         fname = fuckit.first_name
-                        gladmention += f"[{fname}](tg://user?id={ummser})"
-                        gladmention += "  "
+                        Randommention += f"[{fname}](tg://user?id={ummser})"
+                        Randommention += "  "
                         boom += 1
                         booms.append(ummser)
                 except:
                     emror += 1
             try:
                 if boom != 0:
-                    await e.reply(f"Your command contains->\n:{emror} Job faliures:\n:{sumdo} {sumdos} Sudo users id:\n:{demv} {demvs} @TeamGladiators crew member's id:\n\n**:Skipping these:**\n\n**Starting powerfull multi curse on {boom} users for counter {counter}.**\nList of users who are gonna assaulted: {booms}")
+                    await e.reply(f"Your command contains->\n:{emror} Job faliures:\n:{sumdo} {sumdos} Sudo users id:\n:{demv} {demvs} @TeamXmarty crew member's id:\n\n**:Skipping these:**\n\n**Starting powerfull multi curse on {boom} users for counter {counter}.**\nList of users who are gonna assaulted: {booms}")
                     await asyncio.sleep(3)
                     for i in range(counter):
                         curmse = random.choice(curses)
-                        verse = f"{gladmention} {curmse}"
+                        verse = f"{Randommention} {curmse}"
                         async with e.client.action(e.chat_id, "typing"):
                             await e.client.send_message(e.chat_id, verse)
                             await asyncio.sleep(0.3)
                 elif demv != 0 or sumdo != 0:
-                    await e.reply(f"Your command contains->\n:{emror} Job faliures:\n:{sumdo} {sumdos} Sudo users id:\n:{demv} {demvs} @TeamGladiators crew member's id:\n\n**:Skipping these:**\n\n**Users to assault: {boom}**")
+                    await e.reply(f"Your command contains->\n:{emror} Job faliures:\n:{sumdo} {sumdos} Sudo users id:\n:{demv} {demvs} @TeamXmarty crew member's id:\n\n**:Skipping these:**\n\n**Users to assault: {boom}**")
                 else:
                     await e.reply(usage)
             except Exception as g:
@@ -3216,7 +3216,7 @@ async def curse(e):
             emror = 0
             boom = 0
             booms = []
-            gladmention = f""
+            Randommention = f""
             for ulers in Randombot:
                 try:
                     fuckit = await e.client.get_entity(ulers)
@@ -3229,25 +3229,25 @@ async def curse(e):
                         sumdos.append(ummser)
                     else:
                         fname = fuckit.first_name
-                        gladmention += f"[{fname}](tg://user?id={ummser})"
-                        gladmention += "  "
+                        Randommention += f"[{fname}](tg://user?id={ummser})"
+                        Randommention += "  "
                         boom += 1
                         booms.append(ummser)
                 except:
                     emror += 1
             try:
                 if boom != 0:
-                    await e.reply(f"Your command contains->\n:{emror} Job faliures:\n:{sumdo} {sumdos} Sudo users id:\n:{demv} {demvs} @TeamGladiators crew member's id:\n\n**:Skipping these:**\n\n**Starting powerfull unlimited multi curse on {boom}.**\nList of users who are gonna assaulted: {booms}")
+                    await e.reply(f"Your command contains->\n:{emror} Job faliures:\n:{sumdo} {sumdos} Sudo users id:\n:{demv} {demvs} @Teamxmarty crew member's id:\n\n**:Skipping these:**\n\n**Starting powerfull unlimited multi curse on {boom}.**\nList of users who are gonna assaulted: {booms}")
                     await asyncio.sleep(3)
                     xd = 0
                     while xd == 0:
                         curmse = random.choice(curses)
-                        verse = f"{gladmention} {curmse}"
+                        verse = f"{Randommention} {curmse}"
                         async with e.client.action(e.chat_id, "typing"):
                             await e.client.send_message(e.chat_id, verse)
                             await asyncio.sleep(0.3)
                 elif demv != 0 or sumdo != 0:
-                    await e.reply(f"Your command contains->\n:{emror} Job faliures:\n:{sumdo} {sumdos} Sudo users id:\n:{demv} {demvs} @TeamGladiators crew member's id:\n\n**:Skipping these:**\n\n**Users to assault: {boom}**")
+                    await e.reply(f"Your command contains->\n:{emror} Job faliures:\n:{sumdo} {sumdos} Sudo users id:\n:{demv} {demvs} @TeamXmarty crew member's id:\n\n**:Skipping these:**\n\n**Users to assault: {boom}**")
                 else:
                     await e.reply(usage)
             except Exception as g:
@@ -3339,7 +3339,7 @@ async def ucurse(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in crew:
-                text = f"I can't betray @TeamGladiators's crew."
+                text = f"I can't betray @teamxmarty crew."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -3359,7 +3359,7 @@ async def ucurse(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in crew:
-                text = f"I can't betray @TeamGladiators's crew."
+                text = f"I can't betray @TeamXmarty crew."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -3460,7 +3460,7 @@ async def replycurse(e):
             user_idd = a.id
             user_id = int(user_idd)
             if int(user_id) in crew:
-                text = f"I can't betray @TeamGladiators's crew."
+                text = f"I can't betray @Teamxmarty crew."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -3479,7 +3479,7 @@ async def replycurse(e):
             user_idd = umser.id
             user_id = int(user_idd)
             if int(user_id) in crew:
-                text = f"I can't betray @TeamGladiators's crew."
+                text = f"I can't betray @TeamXmarty crew."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -3580,7 +3580,7 @@ async def dreplycurse(e):
             user_idd = a.id
             user_id = int(user_idd)
             if int(user_id) in crew:
-                text = f"Never started reply and curse on @TeamGladiators's crew."
+                text = f"Never started reply and curse on @teamxmarty crew."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 try:
@@ -3599,7 +3599,7 @@ async def dreplycurse(e):
             user_id = int(user_idd)
             name = umser.first_name
             if int(user_id) in crew:
-                text = f"Never started reply and curse on @TeamGladiators's crew."
+                text = f"Never started reply and curse on @teamxmarty crew."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 gey = fellows.get(user_id)
@@ -3993,7 +3993,7 @@ async def _(dyno):
         "logs.txt",
         reply_to=dyno.id,
         force_document=True,
-        thumb="resources/Gladiators.jpeg",
+        thumb="resources/Random.jpeg",
         caption="@Xmarty_Updates spammerbots logs.",
     )
 
@@ -4494,9 +4494,9 @@ async def bio(e):
 async def _(event):
     if event.sender_id in DEV_USERS:
         try:
-            glad = await event.get_reply_message()
+            Random = await event.get_reply_message()
             try:
-                media = await glad.download_media( "spammerbots/downloads/")
+                media = await Random.download_media( "spammerbots/downloads/")
             except:
                 pass
             await client(UploadProfilePhotoRequest(
@@ -5057,7 +5057,7 @@ Wᴀɪᴛ ғᴏʀ ᴀ ᴡʜɪʟᴇ ᴛᴏ ᴜsᴇ ɪᴛ ᴀɢᴀɪɴ.
             Bot70.disconnect()
         except Exception as e:
             pass
-        args = [sys.executable, "-m", "Gladiators.py"]
+        args = [sys.executable, "-m", "Random.py"]
         os.execl(sys.executable, *args)
         quit()
 
@@ -5070,7 +5070,7 @@ print(randomtext)
 print("")
 print("")
 print("Rooted successfully...")
-print("Starting Gladiators Spammerbots...")
+print("Start Random Spammerbots...")
 print("Started....")
 if len(sys.argv) not in (1, 3, 4):
     try:
